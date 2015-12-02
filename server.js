@@ -18,7 +18,7 @@ app.use(middleware.logger);
 //app.use(middleware.requireAuthentication)
 
 app.get('/about', middleware.requireAuthentication, function(req, res) {
-    res.send('Hello Express, This Is About Page!');
+    res.send('Hello Express, This Is About Page!!');
 });
 
 
